@@ -14,8 +14,6 @@ call plug#begin()
 	Plug 'ervandew/supertab'
 call plug#end()
 
-colorscheme Monokai
-
 :map <C-n> :NERDTree
 
 set statusline+=%#warningmsg#
